@@ -54,11 +54,11 @@ kaggle：https://www.kaggle.com/markson14		|	github：https://github.com/markson
 
 
 
-#### **Fine-Grained Species Classification** 
+#### **[Research Project] Fine-Grained Species Classification** 
 
 时间：2018.3 ~ 2018.6
 
-非均衡类别的高精度图像分类。主要难点在于样本class不均衡，以及做到区分高相似度图像。在解决非均衡class问题中我们尝试过过采样和欠采样以及我们组的利用mask-rcnn与gan对已知样本的前后景进行分离与排列组合形成新的样本补充进训练集。高精度的图像分类我们主要利用了增大input size 以及max-pooling对high level feature的提取和利用global average pooling替代flatten layer进行计算量的减少的方法在保持准确率的同时提升模型运行效率。
+非均衡类别的高精度图像分类。主要难点在于类间距比较小而且样本具有长尾效应。在解决长尾效应的非均衡class问题中我们利用mask-rcnn与gan对少数样本进行前后景分离与排列组合形成新的样本作为过采样的方法。在解决类间距离问题我们主要考虑到这与人脸识别十分类似，可以借鉴人脸识别中Additive Margin Softmax作为损失函数帮助有效区分决策边界。最后均使用max-pooling代替网络层中的avg-pooling所搭建的网络进行训练，效果比baesline有显著提升。
 
 ---
 
