@@ -6,9 +6,9 @@ kaggle：https://www.kaggle.com/markson14		|	github：https://github.com/markson
 
 ---
 
-### 工作方向：算法工程师
+### 求职方向：算法工程师
 
-目前就职于九章云极(ZetYun)并担任数据科学家一职，主要负责前沿计算机视觉算法的调研，研发及落地工作如人脸识别，情绪识别，缺陷检测等。业余兴趣爱好喜欢参加kaggle比赛。
+目前就职于九章云极(ZetYun)并担任数据科学家一职，主要负责前沿计算机视觉算法的调研，研发及落地工作如人脸识别，情绪识别，工业场景识别及缺陷检测等。业余兴趣爱好喜欢参加kaggle比赛。
 
 ---
 
@@ -28,11 +28,19 @@ kaggle：https://www.kaggle.com/markson14		|	github：https://github.com/markson
 2. 人像合成：该项目中在业务流结束时与数字人合影的功能。首先需要定位人像的位置，再通过mask-rcnn模型抠出人像并通过背景虚化后将处理过后的图片与数字人背景图片合成。
 3. 情绪识别：在人脸识别的pipeline添加自定义vgg情绪识别模型。图像训练集FER2013，ExpW先通过人脸侦测确定面部位置后抠出作为训练图片。清理过后的数据集相较于原始数据集有2.3%的提升，合并的数据集训练结果单模型达到SOTA结果。
 
-**宁德时代生产线缺陷检测项目**
+**宁德时代缺陷检测**
 
 该项目主要基于APS平台运用目标侦测和图像分类网络识别出生产线上具有缺陷的材料模块并在后续将其筛选出销毁。个人主要负责分类与侦测网络算子的开发。整个pipeline设计运用先侦测后分类的两阶段流程，首先运用yolov3侦测出缺陷模块，而后将bbox内图片传送至resnet分类网络做进一步分类。该设计相比于单模型能够提升缺陷检测的召回率和准确率。
 
+**海信AI平台智能检测**
 
+1. 自动精工遥控器检测校对：
+
+1. 视像科技电视铭牌检测校对：
+
+2. 海信日立冰箱打包带测距：
+
+   
 
 #### WiFi 万能钥匙
 
@@ -64,10 +72,10 @@ kaggle：https://www.kaggle.com/markson14		|	github：https://github.com/markson
 
 ### 教育背景
 
-- **华南农业大学 (广东省“211“工程) 电子工程学院** 
+- **华南农业大学 电子工程学院** 
   - 时间：2012.9 ~ 2016.6
   - 电子信息工程
-- **悉尼大学 School of Computer Science **
+- **The University of Sydney School of Computer Science **
   - 时间：2017.3 ~ 2019.5 
   - Master of Information Technology
   - Master of Information Technology Management
